@@ -1,0 +1,42 @@
+body{
+    border: none ;
+    font-family:Lucida Console
+}
+#home{
+    background-image: url(https://cdn.statically.io/img/lh5.googleusercontent.com/proxy/0kum5BHoJZ0dSRYLOJ9jor84rgP0cZeNrJEzj97nP0yT1uO4fJUo6lkICRt05o9MKUIucevkJ_S9QW1F8FnNNCmRetgl8JvO_soejA=s0-d);
+    width: 100%; 
+}
+.mainimg{
+    border-radius: 50%;
+    width: 14rem
+}
+
+.geeks {
+    overflow: hidden; 
+    margin: 0 auto;
+    margin-left: 1.7rem; 
+}
+.geeks img { 
+    transition: 0.5s all ease-in-out; 
+} 
+
+.geeks:hover img { 
+    transform: scale(.80); 
+}
+.input{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
